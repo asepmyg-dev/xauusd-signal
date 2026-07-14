@@ -1,0 +1,34 @@
+name: XAUUSD Confluence Signal
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # tiap 15 menit (waktu UTC, GitHub Actions gratis)
+  workflow_dispatch:          # tombol "Run workflow" manual di tab Actions
+
+permissions:
+  contents: write
+
+jobs:
+  run-signal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Jalankan signal engine
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node signal-engine.js
+
+      - name: Commit hasil sinyal ke repo
+        run: |
+          git config user.name "signal-bot"
+          git config user.email "signal-bot@users.noreply.github.com"
+          git add data/signal.json data/history.json
+          git diff --cached --quiet || git commit -m "Update sinyal XAUUSD [skip ci]"
+          git push
