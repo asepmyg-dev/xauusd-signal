@@ -1,0 +1,19 @@
+name: Test Notifikasi Telegram
+
+on:
+  workflow_dispatch:   # cuma bisa dijalankan manual lewat tombol "Run workflow"
+
+jobs:
+  test-telegram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Kirim pesan tes
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node test-telegram.js
