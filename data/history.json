@@ -1384,5 +1384,19 @@
     "macd_hist": "2.2533",
     "trend": "UP",
     "volume_source": "candle_direction_fallback"
+  },
+  {
+    "time": "2026-07-21T07:00:38.309Z",
+    "ticker": "XAUUSD",
+    "signal": "STRONG_BUY",
+    "price": "4078.94",
+    "bull_score": 4,
+    "bear_score": 1,
+    "buy_pressure_pct": "80.00",
+    "sell_pressure_pct": "20.00",
+    "rsi": "83.59",
+    "macd_hist": "2.2977",
+    "trend": "UP",
+    "volume_source": "candle_direction_fallback"
   }
 ]
