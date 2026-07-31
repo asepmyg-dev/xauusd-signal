@@ -1,14 +1,14 @@
 {
-  "time": "2026-07-31T07:15:24.443Z",
+  "time": "2026-07-31T07:30:28.537Z",
   "ticker": "XAUUSD",
   "signal": "NEUTRAL",
-  "price": "4077.17",
+  "price": "4075.03",
   "bull_score": 0,
   "bear_score": 1,
   "buy_pressure_pct": "55.00",
   "sell_pressure_pct": "45.00",
-  "rsi": "42.38",
-  "macd_hist": "0.8982",
+  "rsi": "40.19",
+  "macd_hist": "0.6282",
   "trend": "SIDEWAYS",
   "volume_source": "candle_direction_fallback"
 }
