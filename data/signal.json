@@ -1,14 +1,14 @@
 {
-  "time": "2026-08-16T19:54:08.992Z",
+  "time": "2026-08-16T20:00:29.718Z",
   "ticker": "XAUUSD",
-  "signal": "STRONG_BUY",
-  "price": "4375.67",
-  "bull_score": 4,
-  "bear_score": 1,
+  "signal": "NEUTRAL",
+  "price": "4375.60",
+  "bull_score": 2,
+  "bear_score": 3,
   "buy_pressure_pct": "70.00",
   "sell_pressure_pct": "30.00",
-  "rsi": "51.39",
-  "macd_hist": "-0.0008",
-  "trend": "UP",
+  "rsi": "47.61",
+  "macd_hist": "-0.0049",
+  "trend": "SIDEWAYS",
   "volume_source": "candle_direction_fallback"
 }
