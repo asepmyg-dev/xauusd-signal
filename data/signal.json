@@ -1,14 +1,14 @@
 {
-  "time": "2026-09-14T00:23:42.507Z",
+  "time": "2026-09-14T00:30:24.093Z",
   "ticker": "XAUUSD",
-  "signal": "NEUTRAL",
-  "price": "4338.47",
+  "signal": "STRONG_SELL",
+  "price": "4336.00",
   "bull_score": 1,
-  "bear_score": 3,
+  "bear_score": 4,
   "buy_pressure_pct": "55.00",
   "sell_pressure_pct": "45.00",
-  "rsi": "44.14",
-  "macd_hist": "-0.1015",
+  "rsi": "41.68",
+  "macd_hist": "-0.2590",
   "trend": "DOWN",
   "volume_source": "candle_direction_fallback"
 }
