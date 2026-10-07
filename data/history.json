@@ -1,19 +1,5 @@
 [
   {
-    "time": "2026-10-06T06:15:23.427Z",
-    "ticker": "XAUUSD",
-    "signal": "STRONG_SELL",
-    "price": "4121.64",
-    "bull_score": 1,
-    "bear_score": 4,
-    "buy_pressure_pct": "30.00",
-    "sell_pressure_pct": "70.00",
-    "rsi": "41.23",
-    "macd_hist": "-0.4413",
-    "trend": "DOWN",
-    "volume_source": "candle_direction_fallback"
-  },
-  {
     "time": "2026-10-06T06:30:28.276Z",
     "ticker": "XAUUSD",
     "signal": "NEUTRAL",
@@ -1396,6 +1382,20 @@
     "sell_pressure_pct": "75.00",
     "rsi": "33.33",
     "macd_hist": "-0.4714",
+    "trend": "SIDEWAYS",
+    "volume_source": "candle_direction_fallback"
+  },
+  {
+    "time": "2026-10-07T06:00:35.146Z",
+    "ticker": "XAUUSD",
+    "signal": "NEUTRAL",
+    "price": "4132.75",
+    "bull_score": 1,
+    "bear_score": 3,
+    "buy_pressure_pct": "25.00",
+    "sell_pressure_pct": "75.00",
+    "rsi": "29.58",
+    "macd_hist": "-0.4834",
     "trend": "SIDEWAYS",
     "volume_source": "candle_direction_fallback"
   }
