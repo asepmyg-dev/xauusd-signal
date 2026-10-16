@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-16T23:15:24.679Z",
+  "time": "2026-10-16T23:30:27.235Z",
   "ticker": "XAUUSD",
   "signal": "NEUTRAL",
   "price": "4164.61",
@@ -7,8 +7,8 @@
   "bear_score": 1,
   "buy_pressure_pct": "55.00",
   "sell_pressure_pct": "45.00",
-  "rsi": "45.24",
-  "macd_hist": "0.2745",
+  "rsi": "45.26",
+  "macd_hist": "0.2647",
   "trend": "SIDEWAYS",
   "volume_source": "candle_direction_fallback"
 }
